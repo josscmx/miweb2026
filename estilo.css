@@ -1,0 +1,87 @@
+<style>
+    /* Configuración General */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f7f6;
+        color: #333;
+        margin: 0;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        color: #2c3e50;
+        border-bottom: 3px solid #e74c3c;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    /* Estilo para las listas */
+    ul, ol {
+        background: #fff;
+        padding: 20px 40px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    li {
+        margin-bottom: 8px;
+        font-weight: 500;
+    }
+
+    /* Estilo de la Tabla */
+    table {
+        width: 100%;
+        max-width: 1000px;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        overflow: hidden; /* Para que los bordes redondeados funcionen */
+        border: none;
+        margin-top: 30px;
+    }
+
+    th {
+        background-color: #2c3e50;
+        color: white;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 15px;
+    }
+
+    td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #eee;
+        text-align: center;
+    }
+
+    tr:hover {
+        background-color: #f9f9f9;
+        transition: 0.3s;
+    }
+
+    /* Estilo para las imágenes de los candidatos */
+    img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover; /* Evita que la imagen se deforme */
+        border-radius: 50%; /* Foto circular */
+        border: 2px solid #e74c3c;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    /* Estilo para la columna de CV */
+    td:last-child {
+        font-style: italic;
+        color: #555;
+    }
+</style>
